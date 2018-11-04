@@ -32,7 +32,7 @@ function fotoSuccess(mediaBestanden) {
   fotoElement.src = /*"data:image/jpeg;base64," +*/ mediaBestanden;
 
   // Verplaats de afbeelding van de temp-map naar een permanente map
-  verplaatsNaarGalerij(uriData);
+  verplaatsNaarGalerij(mediaBestanden);
 }
 
 // Wordt aangeroepen als er een fout is opgeworpen
